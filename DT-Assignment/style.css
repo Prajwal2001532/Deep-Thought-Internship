@@ -1,0 +1,583 @@
+body{
+  font-family:'Poppins';
+  margin-top:0;
+  margin-right:0;
+  margin-left: 0px;
+
+}
+/* TOP Header CSS  */
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 120px;
+  width:4440px;
+  background-color: #f1f1f1;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.arrow-icon {
+  color: #000000; /* Set the color to black */
+  background-color: #ffffff; /* Set the background color to white */
+  border-radius: 50%; /* Make the icon circular */
+  padding: 10px;
+  margin-left:110px;
+}
+
+
+img {
+  height: 60px; /* Increase the height value */
+  width: auto; /* Let the width adjust proportionally */
+  max-width: 100%;
+  margin-left: 130px;
+}
+
+.dot {
+  position: absolute;
+  top: 0px;
+  left:24px;
+  right: 0px;
+  width: 7.06px;
+  height: 7.06px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.dropdown {
+  width: 40px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: xx-large;
+  padding: 10px;
+  transform: rotateX(180deg);
+}
+
+.drop{
+  width: 40px;
+  height: 50px;
+  border: none;
+  top:90px;
+  
+}
+
+.label {
+  position:absolute;
+  top: 214px;
+  margin-left: 70px;
+  font-size: 26px;
+  color: #000;
+}
+.dropdown option {
+  display: none;
+}
+
+.top-header {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+  background-color: #f1f1f1;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  top: 5px;
+  right: 0;
+  left:830px;
+}
+
+.header-list li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#0099CC;
+  margin-left: 30px;
+}
+.header-list li:last-child ,.header-list .last{
+  background-color: #f1f1f1; /* Change the background color for the last item */
+  border-radius: 100px;
+    
+  
+}
+.header-list li:last-child i {
+  color: #0099CC; /* Change the color of the last icon */
+}
+
+.header-list li i {
+  color: #fff;
+  font-size: 18px; /* Adjust the icon size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+}
+
+
+.sidebar {
+  background: linear-gradient(to top, white 90%,#000 10%);
+  width: 180px;
+  height: 750px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.sidebar-content {
+  padding:20px;
+   
+}
+
+#newSidebar {
+  background: linear-gradient(to top, white 90%,#000 10%);
+  width: 180px;
+  height: 750px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: -200px;
+  z-index: 2;
+  transition: left 0.3s ease-in-out;
+
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+.heading {
+
+  margin-top:-720px;
+  margin-left: 250px;
+  height: 42px;
+  font-weight: 900px;
+  font-size: 36px;
+  top: 108px;
+  left: 187px;
+  color: blue;
+
+}
+
+
+.btn{ 
+
+    margin-top:0px;
+    width: 7%;
+    height: 20%;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-left:1500px;
+    border-radius: 10px;
+    padding: 10px 20px;
+  
+}
+
+
+.button{
+    width: 23%;
+    height: 6%;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-top:10px;
+    margin-left:40px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+
+.content-area {
+
+  margin-top: 60px;
+  background-color: white;
+  color:#0029FF;
+  border-radius: 30%;
+  padding: 10px;
+  width: 68px;
+  height: 64px;
+  top: 166px;
+  left: 32px;
+  border-radius: 20px;
+  border: 1px;
+  margin-left: 20px;
+  outline: 2px solid #0029FF;
+
+}
+
+/* Style the sidebar */
+.sidebar-right {
+  background: linear-gradient(to right, #000 50%,#fff 50%);
+  margin-top: 140px;
+  width: 100px;
+  height: 530px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f2f2f2;
+}
+
+
+.pick{
+  text-align:center;
+  margin-top:auto;
+  font-size: 40px;
+  
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  
+}
+
+
+.FirstDiv{
+    width: 600px;
+    height: 780px;
+    position: absolute;
+    top: 397px;
+    left: 214px;
+    border-radius: 30px;
+    margin-left:80px;
+    margin-top:200px;
+    background: linear-gradient(to top, #FCFBFB 90%,#000 10%);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.SecondDiv{
+  width: 620px;
+  height: 780px;
+  position: absolute;
+  top: 397px;
+  left: 214px;
+  border-radius: 30px;
+  margin-left:780px;
+  margin-top:200px;
+  background: linear-gradient(to top, #FCFBFB 90%,#000 10%);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.ThirdDiv{
+  width: 620px;
+  height: 780px;
+  position: absolute;
+  top: 497px;
+  left: 214px;
+  border-radius: 30px;
+  margin-left:80px;
+  margin-top:970px;
+  background: linear-gradient(to top,#FCFBFB 90%,#000 10%);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.FourthDiv{
+  width: 620px;
+  height: 780px;
+  position: absolute;
+  top: 497px;
+  left: 214px;
+  border-radius: 30px;
+  margin-left:780px;
+  margin-top:970px;
+  background: linear-gradient(to top, #FCFBFB 90%,#000 10%);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.content-divthree{
+  margin-left:40px;
+  width:560px;
+  background: #FCFBFB;
+  height:281px;
+  border-radius:3px;
+  border:none;
+  box-shadow:  0 0 3px 2px rgba(0, 0, 0, 0.2);
+    
+}
+.inner-content{
+  width:560px;
+  height:120px;
+  border-radius:3px;
+  box-shadow:  2px 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.first{
+  font-family: "Open Sans", sans-serif;
+  size:17px;
+  color:white;
+  font-weight:600;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+
+
+#icon{
+  position:relative;
+  margin-top: -40px; /* Adjust the margin as needed */
+  top:10px;
+  left:77px;
+}
+
+
+#icon-2{
+  position:relative;
+  margin-top: -40px; /* Adjust the margin as needed */
+  top:10px;
+  left:180px;
+}
+
+#icon-3{
+
+  position:relative;
+  margin-top: -40px; /* Adjust the margin as needed */
+  top:10px;
+  left:110px;
+
+}
+
+
+.horizontal-word {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  margin-top:170px;
+  margin-right:60px;
+  color:white;
+  line-height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.inner-div1{
+  width:249px;
+  height:95px;
+  border-radius: 20px;
+  margin-top:40px;
+  margin-left:40px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color:#0000000D;
+
+}
+.inner-div2{
+  width:249px;
+  height:90px;
+  border-radius: 20px;
+  margin-top:-80px;
+  margin-left:40px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+
+}
+
+.inner-div3{
+  width:249px;
+  height:95px;
+  border-radius: 20px;
+  margin-top:-140px;
+  margin-left:330px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color:#0000000D;
+
+}
+.inner-div4{
+  width:249px;
+  height:90px;
+  border-radius: 20px;
+  margin-top:-80px;
+  margin-left:330px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+
+}
+
+.inner-div5{
+  width:549px;
+  height:95px;
+  border-radius: 20px;
+  margin-top:30px;
+  margin-left:40px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color:#0000000D;
+}
+.inner-div6{
+  
+  width:549px;
+  height:120px;
+  border-radius: 20px;
+  margin-top:-80px;
+  margin-left:40px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.custom-div {
+  width: 1380px;
+  height: 195px;
+  margin-top: 57px;
+  margin-left: 247px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+
+}
+
+.videolink{
+  width: 600px;
+  top:0;
+  left:0;
+  height: 391px;
+  max-width: 100%;
+  margin-top:-10px;
+  margin-left: 0px;
+}
+
+.custom-content h2 {
+  margin-left: 40px;
+}
+
+.para-content h3{
+  margin-left:40 px;
+}
+
+.para-content p {
+  margin-top:10px;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.custom-content p {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400px;
+}
+.mini-div{
+  margin-left:40px;
+  width:560px;
+  background: #FCFBFB;
+  height:60px;
+  border-radius:6px;
+  box-shadow:  0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mini-div2{
+  margin-left:40px;
+  margin-top:-9px;
+  width:560px;
+  background: #F2F2F2;
+  height:60px;
+  border: 1px solid lightgray;
+  /* border-radius:6px; */
+  /* box-shadow:  0px 2px 2px 2px rgba(0, 0, 0, 0.2); */
+}
+
+.dropdown2 {
+  width: 40px;
+  height: 50px;
+  background: #F2F2F2;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: xx-large;
+  padding: 10px;
+  transform: rotateX(180deg);
+}
+.label2 {
+  position:absolute;
+  top: 184px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: #000;
+}
+
+
+
+
+.mini-div3{
+  margin-left:40px;
+  margin-top:60px;
+  width:560px;
+  background: #fff;
+  height:60px;
+  border: 1px solid lightgray;
+  /* border-radius:6px; */
+  /* box-shadow:  0px 2px 2px 2px rgba(0, 0, 0, 0.2); */
+}
+
+.dropdown3 {
+  width: 40px;
+  height: 50px;
+  background: #fff;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: xx-large;
+  padding: 10px;
+  transform: rotateX(180deg);
+}
+.label3 {
+  position:absolute;
+  top: 414px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: #000;
+}
+.mini-div4{
+  margin-left:90px;
+  margin-top:60px;
+  width:500px;
+  background: #fff;
+  height:60px;
+  border: 1px solid lightgray;
+}
+.label4{
+  position:absolute;
+  top: 704px;
+  margin-left: 10px;
+  font-size: 22px;
+  color: #000;
+}
+
+.question-icon {
+  color: #ffffff; /* Set the color to white */
+  background-color: #007bff; /* Set the background color to blue */
+  border-radius: 60%; /* Make the icon circular */
+  top:0;
+  right:0;
+  margin-top:40px;
+  padding:10px;
+  font-size: 54px;
+}
+/* Right Sidebar Word */
+.letter {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 25px; /* Adjust the line-height to increase or decrease the vertical spacing */
+  margin-bottom: 10px; /* Adjust the margin-bottom to increase or decrease the vertical spacing */
+}
+
+
+
+
+
