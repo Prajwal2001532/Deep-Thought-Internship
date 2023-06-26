@@ -44,7 +44,6 @@ Once the frontend webpage is deployed, it can be accessed by navigating to the a
 
 ### Troubleshoot
 If you encounter any issues or errors while working with the frontend webpage, please try the following troubleshooting steps:
-
 Ensure all the required dependencies are installed correctly.
 Double-check the file paths and configurations.
 Clear the browser cache and restart the browser.
